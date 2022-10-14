@@ -1,0 +1,17 @@
+import random
+
+x = random.randrange(0,30)
+s_poskusov = 5
+
+while s_poskusov > 0:
+    poskus = input("Vnesi stevilo: ")
+    poskus = int(poskus)
+    if x == poskus 
+        print("Zmaga")
+        break
+elif poskus < x:
+    print("Vnesli ste premajhno stevilko")
+else:
+    print("Vnesli ste preveliko stevilko")
+
+s_poskusov = s_poskusov - 1           
